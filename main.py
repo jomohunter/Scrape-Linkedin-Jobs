@@ -22,10 +22,10 @@ driver.get("https://linkedin.com/uas/login")
 time.sleep(2)
 
 username = driver.find_element(By.ID, "username")
-username.send_keys("maghraoui.joseph@gmail.com") 
+username.send_keys("test@gmail.com") 
 
 pword = driver.find_element(By.ID, "password")
-pword.send_keys("jomo2002")       
+pword.send_keys("redacted")       
 
 
 driver.find_element(By.XPATH, "//button[@type='submit']").click()
